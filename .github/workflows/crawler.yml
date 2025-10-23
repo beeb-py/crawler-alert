@@ -25,9 +25,9 @@ jobs:
 
     - name: Run crawler and email alerts
       env:
-        EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
-        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-        EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+        EMAIL_SENDER: ${{ secrets.SENDER_EMAIL }}
+        EMAIL_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+        EMAIL_RECEIVER: ${{ secrets.RECEIVER_EMAIL }}
 
       run: |
         python crawler_alert.py
