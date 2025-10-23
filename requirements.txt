@@ -1,9 +1,4 @@
 feedparser
 pandas
 python-dotenv
-os
 requests
-datetime
-email.mime.text
-email.mime.multipart
-smtplib
