@@ -14,12 +14,11 @@ This project automatically crawls news articles using **Google News RSS** feeds.
 ---
 
 ## Project Structure
-crawler-alert/
-├── crawler.py # Handles fetching and saving of news articles
-├── crawler_alert.py # Compares new vs old results and sends email alerts
-├── requirements.txt # Python dependencies
-├── .env # Local environment variables (not committed to Git)
-└── README.md # Project documentation
+- crawler-alert/
+- crawler.py # Handles fetching and saving of news articles
+- crawler_alert.py # Compares new vs old results and sends email alerts
+- requirements.txt # Python dependencies
+- .env # Local environment variables (not committed to Git)
 
 ---
 
